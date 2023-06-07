@@ -8,94 +8,115 @@
   </head>
 
   <body>
-    <header id="header"><img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
-    <nav id="nav-bar">
-      <a href="#get-started" class="nav-link">Features</a>
-      <a href="#How-It-Works" class="nav-link">How It Works</a>
-      <a href="#Pricing" class="nav-link">Pricing</a>
-    </nav>
+    <header id="header">
+      <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""
+        id="header-img">
+  
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
     </header>
-
-    <section id="get-started">
-      <h1>Handcrafted, home-made masterpieces</h1>
-      <form id="form" for="https://www.freecodecamp.com/email-submit">
-        <div class="input-element">
-          <input type="email" placeholder="Enter your email address" id="email">
-        <input id="submit" value="GET STARTED" type="submit">
-        </div>
+  
+    <main id="features">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" placeholder="Enter your email address" id="email" name="email" required>
+        <input type="submit" value="Get started" id="submit">
       </form>
-    </section>
-    
-    <section id="How-It-Works">
-      <div class="box">
-        <i class="fa fa-fire" aria-hidden="true"></i>
-        <div>
-          <h2>Premium Materials</h2>
-          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+    </main>
+  
+    <section id="works">
+      <div class="works-box">
+        <i class="fa fa-fire"></i>
+        <div class="text">
+          <h2>
+            Premium Materials
+          </h2>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.</p>
         </div>
       </div>
-
-      <div class="box">
-        <i class="fa fa-truck" aria-hidden="true"></i>
-        <div>
-          <h2>Fast Shipping</h2>
-          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+  
+  
+      <div class="works-box">
+        <i class="fa fa-truck"></i>
+        <div class="text">
+          <h2>
+            Fast Shipping
+          </h2>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
+            you are not satisfied.</p>
         </div>
       </div>
-
-      <div class="box">
-        <i class="fa fa-battery-full" aria-hidden="true"></i>
-        <div>
-          <h2>Quality Assurance</h2>
-          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+  
+      <div class="works-box">
+        <i class="fa fa-battery-full"></i>
+        <div class="text">
+          <h2>
+            Quality Assurance
+          </h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+            pitch of your instrument.
+          </p>
         </div>
       </div>
-
-      <div>
-        <video id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></video>
+  
+      <div class="vid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen id="video"></iframe>
       </div>
     </section>
-
-    <section id="Pricing">
-      <div>
-      <h3>TENOR TROMBONE</h3>
-      <h2>$600</h2>
-      <p>Lorem ipsum.<br>
-        Lorem ipsum.<br>
-        Lorem ipsum dolor.<br>
-        Lorem ipsum. </p>
-        <button>SELECT</button>
+  
+    <section id="pricing">
+      <div class="price-box">
+        <h3>TENOR TROMBONE</h3>
+        <h1>
+          $600
+        </h1>
+        <p>Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor. <br>
+          Lorem ipsum.</p>
+        <button>Submit</button>
       </div>
-
-      <div>
-        <h3>BASS TROMBONE</h3>
-      <h2>$900</h2>
-      <p>Lorem ipsum.<br>
-        Lorem ipsum.<br>
-        Lorem ipsum dolor.<br>
-        Lorem ipsum. </p>
-        <button>SELECT</button>
-
+      <div class="price-box">
+        <h3>TENOR TROMBONE</h3>
+        <h1>
+          $600
+        </h1>
+        <p>Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor. <br>
+          Lorem ipsum.</p>
+        <button>Submit</button>
       </div>
-
-      <div>
-        <h3>VALVE TROMBONE</h3>
-        <h2>$1200</h2>
-        <p>Plays similar to a Trumpet<br>
-          Great for Jazz Bands<br>
-          Lorem ipsum dolor.<br>
-          Lorem ipsum. </p>
-          <button>SELECT</button>
+      <div class="price-box">
+        <h3>TENOR TROMBONE</h3>
+        <h1>
+          $600
+        </h1>
+          <p>Plays similar to a Trumpet<br>
+            Great for Jazz Bands<br>
+            Lorem ipsum dolor.<br>
+            Lorem ipsum. </p>
+        <button>Submit</button>
       </div>
     </section>
-
+  
     <footer>
-      <div>
+      <div class="foot-nav">
         <a href="">Privacy</a>
         <a href="">Terms</a>
         <a href="">Contact</a>
       </div>
-      <p>Copyright 2016, Original Trombones</p>
+      <div>
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+  
     </footer>
 
 
